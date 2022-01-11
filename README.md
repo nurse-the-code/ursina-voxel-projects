@@ -10,9 +10,17 @@ This is project was initially based on my refactoring of ClearCode's walk throug
 This project will in all liklihood be split in to a series of projects.
 
 ## Getting Started
+
+### On a Mac
 <ol>
-  <li>Clone the git repo.
-  <li>
+  <li>Make sure that the following are installed on your machine:
+    <ul>
+      <li><a href="https://brew.sh">Homebrew</a> (optional, but this is a popular tool for installing packages)
+      <li><a href="https://git-scm.com">Git</a>
+      <li><a href="https://github.com/pyenv/pyenv">pyenv</a> (Useful tool for managing different Python versions)
+      <li><a href="https://python-poetry.org">Poetry</a> (Python Dependency management tool)
+    </ul>
+  <li> Use pyenv to make to install Python (e.g. <code>pyenv install 3.10.0</code>). You will need to install at Python 3.6 (or higher). I recommend using Python 3.10.0, since that is what I am using for development.
 </ol>
 
 ## Roadmap
