@@ -18,9 +18,9 @@ This project will in all liklihood be split in to a series of projects.
 ## Roadmap
 <ol>
   <li>Integrate my old code into this repo (the working bits).
-  <li>Recreate my VoxelArray class. This will be a type of 3D array. I will idnclude some array manipulation techniques and the ability to import 1D and 2D arrays.
+  <li>Recreate my VoxelArray class. This will be a type of 3D array. I will include some array manipulation techniques and the ability to import 1D and 2D arrays.
   <li>Add back in block printing. This will allow block text (and in the future <a href="https://en.wikipedia.org/wiki/Pixel_art">pixel art</a> as well).
-  <li>Develop a <a href="https://minecraft.fandom.com/wiki/Chunk">chunking system</a> to store voxel data. It will inherit from the VoxelArray class.
+  <li>Develop a <a href="https://minecraft.fandom.com/wiki/Chunk">chunking system</a> to store and render voxel data. It will inherit from the VoxelArray class.
   <li>Build a palette system to allow for their to be more diverse block types
   <li>Make the voxel rendering more efficient by rendering each chunk as a single mesh and not rendering opaque voxel faces that are adjacent to another voxel.
   <li>TBD
