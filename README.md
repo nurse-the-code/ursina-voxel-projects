@@ -5,7 +5,7 @@ This is one of my first non-trivial projects. Inspiration came from [Minecraft](
 
 [Ursina](https://www.ursinaengine.org/index.html) is an easy to use game engine built on top of [Python](https://www.python.org) and [Panda3d](https://www.panda3d.org) (which is also a game engine).
 
-This is project was initially based on my refactoring of ClearCode's walk through of "Creating Minecraft in Python" ([YouTube](https://www.youtube.com/watch?v=DHSRaVeQxIk), [GitHub](https://github.com/clear-code-projects/Minecraft-in-Python)).
+This is project was initially based on my refactoring of ClearCode's walk through of "Creating Minecraft in Python" ([YouTube](https://www.youtube.com/watch?v=DHSRaVeQxIk), [GitHub](https://github.com/clear-code-projects/Minecraft-in-Python)). Unfortunately, some of my original code base was deleted while I was learning Git, so I am currently in the process of adding back in old features that I had created.
 
 This project will in all liklihood be split in to a series of projects.
 
