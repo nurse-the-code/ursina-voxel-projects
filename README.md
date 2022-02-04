@@ -5,7 +5,7 @@ This is one of my first non-trivial projects. Inspiration came from [Minecraft](
 
 [Ursina](https://www.ursinaengine.org/index.html) is an easy to use game engine built on top of [Python](https://www.python.org) and [Panda3d](https://www.panda3d.org) (which is also a game engine).
 
-This is project was initially based on my refactoring of ClearCode's walk through of "Creating Minecraft in Python" ([YouTube](https://www.youtube.com/watch?v=DHSRaVeQxIk), [GitHub](https://github.com/clear-code-projects/Minecraft-in-Python)). Unfortunately, some of my original code base was deleted while I was learning Git, so I am currently in the process of adding back in old features that I had created.
+This is project was initially based on my refactoring of ClearCode's walk through of "Creating Minecraft in Python" ([YouTube](https://www.youtube.com/watch?v=DHSRaVeQxIk), [GitHub](https://github.com/clear-code-projects/Minecraft-in-Python)). Unfortunately, some of my original code base was deleted while I was learning Git, so I am currently in the process of adding back in old features that I had created. Due to my current studies as at Tech Elevator (where I am learning software development), this process is running a little slowly right now.
 
 This project will in all liklihood be split in to a series of projects.
 
@@ -20,16 +20,17 @@ This project will in all liklihood be split in to a series of projects.
       <li><a href="https://github.com/pyenv/pyenv">pyenv</a> (Useful tool for managing different Python versions)
       <li><a href="https://python-poetry.org">Poetry</a> (Python Dependency management tool)
     </ul>
-  <li> Use pyenv to make to install Python (e.g. <code>pyenv install 3.10.0</code>). You will need to install at Python 3.6 (or higher). I recommend using Python 3.10.0, since that is what I am using for development.
+  <li> Use pyenv to make to install Python (e.g. <code>pyenv install 3.10.0</code>). You will need to install at Python 3.6 (or higher). I recommend using Python 3.9 or 3.10, since that is what I am using for development.
 </ol>
 
 ## Roadmap
 <ol>
   <li>Integrate my old code into this repo (the working bits).
-  <li>Recreate my VoxelArray class. This will be a type of 3D array. I will include some array manipulation techniques and the ability to import 1D and 2D arrays.
+  <li>Recreate my VoxelArray class. This will be a type of 3D array, with the ability to import 1D and 2D arrays. I will eventually include some array manipulation techniques.
   <li>Add back in block printing. This will allow block text (and in the future <a href="https://en.wikipedia.org/wiki/Pixel_art">pixel art</a> as well).
   <li>Develop a <a href="https://minecraft.fandom.com/wiki/Chunk">chunking system</a> to store and render voxel data. It will inherit from the VoxelArray class.
-  <li>Build a palette system to allow for their to be more diverse block types
+  <li>Create a system for making persistant changes to blocks. This will probably involve writing to a file system at first, but I may decide to incorperate a database instead.
+  <li>Build a palette system to allow for their to be more diverse block types.
   <li>Make the voxel rendering more efficient by rendering each chunk as a single mesh and not rendering opaque voxel faces that are adjacent to another voxel.
   <li>TBD
 </ol>
