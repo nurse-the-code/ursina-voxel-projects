@@ -41,7 +41,7 @@ jump. Your mouse controls the view window.
   <li>Add back in block printing. This will allow block text (and in the future <a href="https://en.wikipedia.org/wiki/Pixel_art">pixel art</a> as well).
   <li>Develop a <a href="https://minecraft.fandom.com/wiki/Chunk">chunking system</a> to store and render voxel data. It will inherit from the VoxelArray class.
   <li>Create a system for making persistent changes to blocks. This will probably involve writing to a file system at first, but I may decide to incorporate a database instead.
-  <li>Build a palette system to allow for their to be more diverse block types.
+  <li>Build a palette system to allow for there to be more diverse block types.
   <li>Make the voxel rendering more efficient by rendering each chunk as a single mesh and not rendering opaque voxel faces that are adjacent to another voxel.
   <li>TBD
 </ol>
